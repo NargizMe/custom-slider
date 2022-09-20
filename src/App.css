@@ -1,0 +1,19 @@
+.slider-container{
+    width: 700px;
+    height: 500px;
+    margin: 13px auto;
+    /*display: flex;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-container img{
+    width: 700px;
+    height: 500px;
+}
+
+.slider-item{
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease;
+}
